@@ -6,14 +6,14 @@ String.prototype.repeat = function( num )
 $(document).ready(function(){
 	var part1 = '<div class="row">';
 	var div = '<div> </div>';
-	var part2 = '</div><br>';
-	for( i=0; i<10; i++){
-		$('body').append(part1 + div.repeat(10) + part2);
+	var part2 = '</div>';
+	for( i=0; i<50; i++){
+		$('body').append(part1 + div.repeat(80) + part2);
 	}
 
 	var $box = $('.row div');
 	$box.hover(function(){
-		$(this).css("opacity","-=0.1");
+		$(this).css("opacity","-=0.25");
 	},
 		function(){
 		//$(this).css("background-color","blue");

@@ -2,14 +2,14 @@ div {
 	width: 100%;
 	text-align: center;
 	display: inline-block;
+    margin-bottom: -4px;
+    margin-top: -4px;
 }
-.row div {
 
-	height: 30px;
-	width: 30px;
+.row div {
+	height: 0px;
+	width: 0px;
 	background-color: black;
 	opacity: 100%;
-	border: 2px solid red;
-	border-radius: 5px;
-	padding: 5px;
+    padding: 8.8px;
 }
